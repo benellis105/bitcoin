@@ -1,0 +1,120 @@
+body {
+    background-color: #282931;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#bid, #ask, .high, .low{
+    position: relative;
+    margin: auto;
+    font-family: "Roboto";
+    font-size: 24pt;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    width: 130px;
+    top: 35px;
+}
+
+.description {
+    margin: auto;
+    font-family: "Roboto";
+    font-size: 12pt;
+    font-weight: 300;
+    color: #FFFFFF;
+    max-width: 600px;
+}
+
+.download {
+    position: relative;
+    margin: auto;
+    background-color: #464646;
+    font-family: "Roboto";
+    font-size: 24pt;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 256px;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    margin-bottom: 50px;
+    border-radius: 2px;
+    box-shadow: 2px 5px 8px #000000;
+}
+
+.priceBar {
+    position: relative;
+    margin: auto;
+    max-width: 800px;
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.priceBox1 {
+    float: left;
+    position: relative;
+    border: 1px solid #FFFFFF;
+    width: 150px;
+    height: 150px;
+}
+
+.priceBox2 {
+    float: left;
+    position: relative;
+    border: 1px solid #FFFFFF;
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+.priceBox3 {
+    float: left;
+    position: relative;
+    border: 1px solid #FFFFFF;
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+.priceBox4 {
+    float: left;
+    position: relative;
+    border: 1px solid #FFFFFF;
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    .priceBar {
+        max-width: 175px;
+        height: 805px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .priceBox2 {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    .priceBox3 {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    .priceBox4 {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    
+    .description {
+        width: 90%;
+    }
+}
